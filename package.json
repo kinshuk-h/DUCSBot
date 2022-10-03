@@ -1,0 +1,17 @@
+{
+  "name": "wabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-warnings --unhandled-rejections=strict index.js",
+    "repl": "node --trace-warnings --unhandled-rejections=strict repl.js",
+    "code-stats": "cloc . --exclude-ext=json,lock --exclude-dir=data,node_modules"
+  },
+  "author": "DUCS Developers",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js"
+  }
+}
